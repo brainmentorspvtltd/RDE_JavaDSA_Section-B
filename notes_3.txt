@@ -1,0 +1,48 @@
+Inheritance
+Polymorphism
+- one thing having several forms
+- Creating function with same name but each function performs different task
+- Overriding is the example of polymorphism
+- But overriding is only possible when there is inheritance
+
+
+Overriding and Overloading
+- Overloading is performed when we pass arguments
+- Overriding means to update parent's method
+
+- Overloading will have different arguments in parent and child function
+- Overriding means to change logic, so it always done to show updated features
+
+Final Keyword
+- The value which is freezed
+- Used in 3 places 
+  - class, method and variable
+
+Super
+Super vs this
+
+   scope - private, default, protected, public    
+   private < default < protected < public
+
+   Packages - Collection of similar classes
+   Modularity
+   com - commercial
+   org - organization
+   com.org.ProjectName.Module.SubModule
+
+Overriding rules
+- there are 3 rules, but right now we will understand only these 2...
+
+1. Weaker Access Rule
+   - we can't make override method to lower scope, means weaker access
+   - If parent's method is default than we can't make child class method weaker (it means private)
+   - If parent's method is weaker than we can make it strong by making it public
+
+
+2. Covariant Return Type
+
+
+
+
+
+
