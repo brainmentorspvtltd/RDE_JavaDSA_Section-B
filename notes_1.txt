@@ -1,0 +1,45 @@
+C
+- Procedural language
+C++
+- Object Oriented
+  - scope of variables
+
+Java
+- strongly typed
+- platform independent
+  - WORA - Write Once Run Anywhere
+- JRE & JVM
+- JDK
+
+class XYZ {
+   static int x = 10;
+   int y = 20;
+   public static void main(String args[])
+  {
+      System.out.println("Hello World");
+  }
+}
+
+
+PrintStream - pre-defined class
+- out is object of PrintStream
+- println is method
+System.out, System.in, System.err
+
+class PrintStream {
+   function print() {}
+   function println() {}
+}
+
+class System {
+   PrintStream out = new PrintStream();    
+}
+
+
+
+
+
+
+
+
+

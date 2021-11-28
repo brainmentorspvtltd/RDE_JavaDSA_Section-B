@@ -63,10 +63,14 @@ Type Promotion
   - if int is not available then it will search for bigger type or closer to it
   - long is closer to int, so next chance is given to long
 - if long is not available then it search float, if float is also not available then search for double
-- if double is not available than it will go for Integer class
+- if double is not available than it will go for Integer class (Wrapper Classes)
 
+Wrapper Classes
+- all data types in java will have there wrapper classes
 
-
+Autoboxing
+- Boxing - Conversion of primitive into object
+- Unboxing - Conversion of object into primitive
 
 
 

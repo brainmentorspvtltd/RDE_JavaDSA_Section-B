@@ -1,0 +1,30 @@
+Abstract Classes
+- Whose object cannot be created
+- It must have abstract method(s) as well
+- These classes can have normal as well as concrete methods
+- At least one abstract method must be declared inside abstract class
+
+If we define abstract method in abstract class than we should implement that method in child class and if we are not implementing that abstract method than we have to make child class abstract as well
+
+What are abstract method ?
+- Abstract methods are declared inside abstract class and there definition will be in child class
+- Method without a body is also known as abstract method...
+- Abstract methods can never be final...
+
+
+Abstract classes are partially abstract
+- it's upto you that you want to create abstract method or not
+
+Interface
+- Interface are 100% abstract
+- But in interface each method will be abstract
+
+How to do  - Class
+What to do - Interface
+
+Interface vs Abstract
+- We can't extend 2 classes at a time, but we can extend multiple interfaces at a time
+- Interfaces are not flexible, we can implement interface in abstract class as well and then extend the abstract class
+- so all the classes will get common features 
+
+

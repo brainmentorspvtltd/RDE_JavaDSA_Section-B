@@ -1,0 +1,57 @@
+boolean - 1 bit (either 0 or 1)
+char  - 2 bytes
+byte  - 1 byte
+short - 2 bytes
+int   - 4 bytes
+float - 4 bytes  
+double - 8 bytes
+long  - 8 bytes
+
+BigDecimal - 32 bytes
+BigInteger - 56 bytes
+
+Java SE - Standard Edition
+Java EE - Enterprise Edition
+
+FirstName
+Firstname
+
+public
+protected
+private
+default
+
+jdk - compile
+jre - java runtime environment
+
+
+class XYZ {
+....
+}
+
+XYZ obj_name = new XYZ();
+
+Java has more than 10000 classes, so it made a package known as java
+Inside that package it created lang and inside lang it created...
+- String
+- System
+- Integer...
+
+For database - SQL
+For networking - net
+For FileHandling - IO
+
+Lang is already imported in java
+
+System.in
+- .in is an object of InputStream
+- InputStream can read from different sources like keyboard, file, network
+- System.in takes input from keyboard
+
+Now if we want to read proper string so we use a Scanner class
+System.in will create a channel and Scanner will collect buffered input. And when buffer will be full it will fetch data from the buffer. So it's like a bucket.
+
+Scanner is a buffer. It's not a way to take input
+
+
+
